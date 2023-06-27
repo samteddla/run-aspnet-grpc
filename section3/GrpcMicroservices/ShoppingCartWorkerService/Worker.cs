@@ -33,7 +33,7 @@ namespace ShoppingCartWorkerService
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
 
                 //0 Get Token from IS4
-                //1 Create SC if not exist
+                //1 Create ShoppingCart if not exist
                 //2 Retrieve products from product grpc with server stream
                 //3 Add sc items into SC with client stream
 
